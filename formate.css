@@ -1,0 +1,192 @@
+<style type="text/css">
+  body {
+    color: black; background-color: white;
+<!--    font-size: 100.01%;-->
+<!--    font-size: 1em;-->
+    font-family: Helvetica,Times,sans-serif;
+    margin: 0; padding: 1em;
+    min-width: 50em; /* Mindestbreite verhindert Umbruch und Anzeigefehler in modernen Browsern */
+  
+  }
+  
+ * {
+
+   background-color:#fffff9;
+ }
+
+  IMG.displayed {
+    display: block;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+h1 {
+    font-size: 1.5em;
+    margin: 0 0 0.7em; padding: 0.3em;
+    text-align: center;
+/*    background-color: #539305;*/
+  }
+div#Losung1 h1 {
+    color: white;    
+    font-size: 1.2em;
+    margin: 0 0 0.6em; padding: 0.3em;
+    text-align: center;
+    background-color: #539305;
+    <!--webkit-background: radial-gradient(center, ellipse cover, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);-->
+    <!--   border: 2px ridge silver;-->
+  }
+div#Losung2 h1 {
+    color: white;
+    font-size: 1.2em;
+    margin: 0 0 0.6em; padding: 0.3em;
+    text-align: center;
+    background-color: #f89215;
+   <!---webkit-background: radial-gradient(center, ellipse cover, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);-->
+    <!--   border: 2px ridge silver;-->
+  }
+div#Losung3 h1 {
+    color: white;
+    font-size: 1.2em;
+    margin: 0 0 0.6em; padding: 0.3em;
+    text-align: center;
+    background-color: #0f7fc1;
+   <!---webkit-background: radial-gradient(center, ellipse cover, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);-->
+    <!--   border: 2px ridge silver;-->
+  }
+
+
+
+#navigation {
+	font-size:0.9em; width: 13em;
+	font-family: Helvetica,Times,sans-serif;
+	float: left; width: 11em;
+	margin 8em 0 1.2em; padding: 0;
+/*	border: 1px dashed silver;*/
+	position: fixed	}
+
+#navigation ul {margin:0px; padding:0px;}
+
+#navigation li {list-style: none;} 
+
+ul.top-level {background:#777;}
+ul.top-level li {
+ border-bottom: #fff solid;
+ border-top: #fff solid;
+ border-width: 1px;
+}
+
+ul#Navigation li {
+  	 font-family: Helvetica,Times,sans-serif;
+    list-style: none;
+    margin: 0; padding: 0.5em;
+  }
+
+#navigation a {
+ color: black;
+ background-color: #eee;
+ cursor: pointer;
+ display:block;
+ height:25px;
+ line-height: 25px;
+ text-indent: 10px;
+ text-decoration:none;
+ width:100%;
+}
+
+ul#Navigation a:link {
+    color: black; background-color: #eee;text-decoration : none;
+  }
+  ul#Navigation a:visited {
+    color: black; background-color: #eee;text-decoration : none;
+  }
+  ul#Navigation a:hover {
+    color: black; background-color: white;text-decoration : none;
+  }
+  ul#Navigation a:active {
+    color: black; background-color: gray;text-decoration : none;
+  }
+
+#navigation li:hover {
+ background: #f90;
+ position: relative;
+}
+
+ul.sub-level {
+    display: none;
+}
+li:hover .sub-level {
+    background: #999;
+    border: #fff solid;
+    border-width: 1px;
+    display: block;
+    position: absolute;
+    left: 75px;
+    top: 5px;
+}
+ul.sub-level li {
+    border: none;
+    float:left;
+    width:150px;
+}
+
+
+  div#Info {
+    font-size: 0.9em;
+    font-family: Helvetica,Times,sans-serif;
+    float: right; width: 11em;
+    margin: 0 0 1.1em; padding: 0;
+    background-color: #eee; <!--border: 1px dashed silver;-->
+    text-decoration: none;
+  }
+  div#Info h2 {
+    font-size: 1.2em;
+    font-family: Helvetica,Times,sans-serif;
+    margin: 0.4em 0.4em;
+    text-decoration: none;
+  }
+  div#Info p {
+    font-size: 1em;
+    font-family: Helvetica,Times,sans-serif;
+    margin: 0.2em 0.2em;
+    text-decoration: none;
+  }
+  
+  div#Info a:link {text-decoration: none;}
+
+  div#Inhalt {
+    font-size: 1em;
+    font-family: Helvetica,Times,sans-serif;
+    margin: 0 12em 1em 11em;
+    padding: 0 1em;
+ 
+  }
+  * html div#Inhalt {
+    
+    height: 1em;  /* Workaround gegen den 3-Pixel-Bug des Internet Explorer bis Version 6 */
+  }
+  div#Inhalt h2 {
+    font-size: 1.1em;
+    text-align: center;
+    margin: 0.2em 0;
+  }
+  div#Inhalt p {
+    font-size: 1em;
+    margin: 1em 0;
+  }
+  
+#navigation a:hover{
+ text-decoration:underline;
+}
+
+p#Fusszeile {
+    clear: both;
+    font-size: 0.9em;
+    margin: 0; padding: 0.1em;
+    text-align: center;
+    background-color: #fed;
+  }
+
+
+</style>
+
