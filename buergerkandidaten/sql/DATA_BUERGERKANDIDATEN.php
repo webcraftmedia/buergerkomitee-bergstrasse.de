@@ -1,6 +1,6 @@
 <?php
 namespace SQL;
-class DATA_BUERGERABSTIMMUNG extends \SYSTEM\DB\QI {
+class DATA_BUERGERKANDIDATEN extends \SYSTEM\DB\QI {
     public static function get_class(){return \get_class();}
     public static function files_mysql(){
         return array(   (new \PSQL('/mysql/system_page.sql'))->SERVERPATH(),
