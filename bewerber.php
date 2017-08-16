@@ -48,14 +48,7 @@ blockquote  { background-color:rgb(100%,100%,100%) }
 
  <div id="Inhalt">
  
-<h2>Ein Direktkandidat f&uuml;r den Wahlkreis Bergstra&szlig;e in den Bundestag</h2>
-<br>
-<p style="line-height:1.4em;"> Der parteiunabh&auml;ngige Direktkandidat des B&uuml;rgerkomittees des Wahlkreises Bergstra&szlig;e  f&uuml;r die Bundestagswahl ist <a href="sbu.php" >Sebastian Bucher</a>.</p>
-<br>
 
-<br>
-
-</a>
 
 
 <br>

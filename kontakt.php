@@ -48,11 +48,7 @@ blockquote  { background-color:rgb(100%,100%,100%) }
 
  <div id="Inhalt">
  
- <h2>Kontakt mit uns</h2>
- <br><br>
- Kontakt mit Sebastian Bucher, dem vorgeschlagenen Direktkandidaten f&uuml;r den Wahlkreis Bergstra&szlig;e: <b>buergerkandidat-hp@web.de</b>
- <br><br>
- Kontakt mit Gerhard Kugler, dem Sprecher des Komitees (Bergstra&szlig;e): <b>G.W.Kugler@web.de</b>
+ 
  <br>
 
 </body>

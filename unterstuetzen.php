@@ -48,11 +48,7 @@ blockquote  { background-color:rgb(100%,100%,100%) }
 
  <div id="Inhalt">
  
- <h2>Unterst&uuml;tzen</h2>
- <br><br>
-Danke an alle, die die Unterstützungsformblätter unterschrieben haben, an die, die sie verteilt haben, und an die, die sie uns teilweise noch per Post geschickt  haben! Wir konnten etwas mehr als die nötige Anzahl (200) einreichen, so dass dem jetzt nichts mehr im Wege steht, dass Sebastian Bucher, unser Kandidat, auf den Wahlzetteln erscheinen wird.
-<br>
-Es beginnt jetzt ein neuer Abschnitt unseres Einsatzes für eine durchsichtigere, direktere Demokratie. Wir werden unsere Vorhaben hier in Kürze dokumentieren. 
+ 
   <br><br>
 
 
