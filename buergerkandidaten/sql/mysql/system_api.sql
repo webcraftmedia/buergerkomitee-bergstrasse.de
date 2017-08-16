@@ -1,0 +1,1 @@
+-- REPLACE INTO `system_api` (`ID`, `group`, `type`, `parentID`, `parentValue`, `name`, `verify`) VALUES (200, 1, 2, 1, 'vote', 'id', 'UINT0');
