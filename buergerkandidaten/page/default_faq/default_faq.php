@@ -5,7 +5,7 @@ class default_faq implements \SYSTEM\PAGE\Page {
     public static function meta(){
         return \SYSTEM\PAGE\text::tag('meta_faq');}
     public function html(){
-        $vars = array();
+        $vars = \SYSTEM\PAGE\text::tag('buergerkandidat');
         return SYSTEM\PAGE\replace::replaceFile((new PPAGE('default_faq/tpl/default_faq.tpl'))->SERVERPATH(), $vars);
     }
     public static function js(){

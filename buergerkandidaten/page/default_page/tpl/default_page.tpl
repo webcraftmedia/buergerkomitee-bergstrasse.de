@@ -21,10 +21,12 @@
     <body>
         <div class="container">
             <div class="row">
-                <div class="col-md-12 padding0" id="head-div"></div>
+                <div class="col-md-12 padding0" id="head-div">
+                    <a href="#!start" ><h1 style="width: 100%; height: 100%;margin: 0;" title="Bürgerkandidat Wahlkreis Bergstraße"></h1></a>
+                </div>
             </div>
             <div class="row">
-                <nav class="navbar navbar-default margin0">
+                <nav class="navbar navbar-default">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#menu-collapse" aria-expanded="false" style="margin-left: 5px;">
                             <span class="sr-only">Toggle navigation</span>
@@ -36,8 +38,8 @@
                     </div>
                     <div class="collapse navbar-collapse" id="menu-collapse">
                         <ul class="nav navbar-nav">
-                            <li><a href="#!faq" id="menu_faq"><span class="glyphicon glyphicon-question-sign"></span>&nbsp;&nbsp;<b>FAQ</b></a></li>
                             <li><a href="#!kandidat" id="menu_kandidat"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;<b>Kandidat</b></a></li>
+                            <li><a href="#!faq" id="menu_faq"><span class="glyphicon glyphicon-question-sign"></span>&nbsp;&nbsp;<b>FAQ</b></a></li>
                             <li><a href="#!unterstuetzen" id="menu_unterstuetzen"><span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;&nbsp;<b>Unterst&uuml;tzen</b></a></li>
                             <li><a href="#!kontakt" id="menu_kontakt"><span class="glyphicon glyphicon-pencil"></span>&nbsp;&nbsp;<b>Kontakt</b></a></li>
                         </ul>
@@ -53,24 +55,22 @@
                             </h4>
                         </div>            
                         <div class="panel-body">
-                            <b>N&auml;chste Sitzung</b> des Komitees am <b>25.8.17 um 19:00</b> in der Gastst&auml;tte Weiherhaus in Bensheim-Auerbach
-                            <hr>
-                            <b>Danke an alle Unterst&uuml;tzer</b>: Unser B&uuml;rgerkandidat Sebastian Bucher hat genug Unterschriften bekommen und wird auf den Wahlzetteln erscheinen!
+                            ${content_aktuelles}
                         </div>            
                     </div>
                 </div>
                 <div class="col-md-9 padding0">
-                    <div class="panel panel-default panel-default" id="content" style="margin-right: 5px; margin-left: 5px; margin-bottom: 0;"></div>
+                    <div class="panel panel-default panel-default" id="content" style="margin-right: 5px; margin-left: 5px;"></div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12 padding0">
-                    <hr>
+                    <hr class="margin0">
                 </div>
             </div>
             <div class="row">
-                <div id="footer-left" class="col-md-5 col-sm-5 col-xs-5 padding0">&nbsp;<a href="#!impressum" title="Impressum">Impressum</a></div>
-                <div id="footer-right" class="col-md-5 col-sm-5 col-xs-5 pull-right padding0">© 2017 <a href="https://www.webcraft-media.de" title="Webcraft Media Webdesign" target="blank">Webcraft Media</a>&nbsp;</div>
+                <div id="footer-left" class="col-md-5 col-sm-5 col-xs-5 padding0">&nbsp;&nbsp;<a href="#!impressum" title="Impressum">Impressum</a></div>
+                <div id="footer-right" class="col-md-5 col-sm-5 col-xs-5 pull-right padding0">© 2017 <a href="https://www.webcraft-media.de" title="Webcraft Media Webdesign" target="blank">Webcraft Media</a>&nbsp;&nbsp;</div>
             </div>
         </div>
         ${css}
