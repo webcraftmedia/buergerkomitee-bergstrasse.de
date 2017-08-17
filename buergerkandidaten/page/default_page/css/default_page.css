@@ -9,3 +9,7 @@
 #footer-right{
     text-align: right;
 }
+
+.active, .active a{
+    background-color: #e7e7e7 !important;
+}
