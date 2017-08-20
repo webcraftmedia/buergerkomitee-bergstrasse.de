@@ -58,6 +58,16 @@
                             ${content_aktuelles}
                         </div>            
                     </div>
+                    <div class="panel panel-default panel-default" style="margin-right: 5px; margin-left: 5px;">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <i class="glyphicon glyphicon-heart"></i>&nbsp;&nbsp;Organisationen im Komitee
+                            </h4>
+                        </div>            
+                        <div class="panel-body">
+                            ${content_organisationen}
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-9 padding0">
                     <div class="panel panel-default panel-default" id="content" style="margin-right: 5px; margin-left: 5px;"></div>
