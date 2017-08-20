@@ -69,7 +69,7 @@
                 </div>
             </div>
             <div class="row">
-                <div id="footer-left" class="col-md-5 col-sm-5 col-xs-5 padding0">&nbsp;&nbsp;<a href="#!impressum" title="Impressum">Impressum</a></div>
+                <div id="footer-left" class="col-md-5 col-sm-5 col-xs-5 padding0">&nbsp;&nbsp;<a href="#!impressum" title="Impressum">Impressum</a> | <a href="#!kontakt" title="Kontakt">Kontakt</a></div>
                 <div id="footer-right" class="col-md-5 col-sm-5 col-xs-5 pull-right padding0">© 2017 <a href="https://www.webcraft-media.de" title="Webcraft Media Webdesign" target="blank">Webcraft Media</a>&nbsp;&nbsp;</div>
             </div>
         </div>

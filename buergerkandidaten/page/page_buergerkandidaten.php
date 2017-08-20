@@ -19,8 +19,8 @@ class page_buergerkandidaten extends \SYSTEM\API\api_default {
     public static function page_kandidat(){
         return (new default_kandidat())->html();}
         
-    public static function page_kontakt(){
-        return (new default_kontakt())->html();}
+    public static function page_kontakt($zu = null){
+        return (new default_kontakt($zu))->html();}
         
     public static function page_unterstuetzen(){
         return (new default_unterstuetzen())->html();}
