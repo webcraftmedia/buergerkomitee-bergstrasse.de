@@ -15,4 +15,5 @@ function sys_hashchange(state){
         $('#menu_'+state_).parent().addClass('active');
     } else {
         $('.navbar-header').addClass('active');}
+    window.scrollTo(0,0);
 }

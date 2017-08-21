@@ -61,3 +61,12 @@ INSERT INTO `system_text_tag` (`id`, `tag`) VALUES ('content_kandidat', 'buerger
 -- INSERT INTO `system_text_tag` (`id`, `tag`) VALUES ('content_kontakt', 'buergerkandidat');
 INSERT INTO `system_text_tag` (`id`, `tag`) VALUES ('content_start', 'buergerkandidat');
 INSERT INTO `system_text_tag` (`id`, `tag`) VALUES ('content_unterstuetzen', 'buergerkandidat');
+
+INSERT INTO `system_text` (`id`, `lang`, `text`, `author`, `author_edit`, `time_create`, `time_edit`) VALUES ('info_faq', 'deDE', 'Sie haben Fragen? Schauen Sie in das FAQ um Antworten zu erhalten.', 1, 1, '2017-08-21 06:26:35', '2017-08-21 06:26:35');
+INSERT INTO `system_text` (`id`, `lang`, `text`, `author`, `author_edit`, `time_create`, `time_edit`) VALUES ('info_kandidat', 'deDE', '<strong>Sebastian Bucher</strong>, der Direktkandidat für die Bergstraße.<br><br>Sehen Sie sich sein Profil an und machen Sie sich ein eigenes Bild.', 1, 1, '2017-08-21 06:24:48', '2017-08-21 06:24:48');
+INSERT INTO `system_text` (`id`, `lang`, `text`, `author`, `author_edit`, `time_create`, `time_edit`) VALUES ('info_komitee', 'deDE', 'Das Komitee ist das wichtigste Prinzip der Initiative <strong>buergerkandidaten.de</strong>. Informieren Sie sich hier und werden Sie Teil der lokalen direkten Demokratie an der Bergstraße. <br><br> Unsere Stärke ist die Vielfalt, wir möchten nicht kämpfen, sondern konstruktiv an einer neuen Art der Politik arbeiten und sie leben! <br><br> <strong>Schließen Sie sich uns an.</strong> <br><br> Den nächsten Termin entnehmen Sie bitte der "Aktuelles"-Box auf der linken Seite.', 1, 1, '2017-08-21 06:25:55', '2017-08-21 06:25:55');
+INSERT INTO `system_text` (`id`, `lang`, `text`, `author`, `author_edit`, `time_create`, `time_edit`) VALUES ('info_kontakt', 'deDE', 'Treten Sie mit dem Direktkandidaten <strong>Sebastian Bucher</strong> oder dem Vorsitzenden des Komitees <strong>Gerhard Kugler</strong> in Kontakt.', 1, 1, '2017-08-21 06:27:31', '2017-08-21 06:27:31');
+INSERT INTO `system_text_tag` (`id`, `tag`) VALUES ('info_faq', 'buergerkandidat');
+INSERT INTO `system_text_tag` (`id`, `tag`) VALUES ('info_kandidat', 'buergerkandidat');
+INSERT INTO `system_text_tag` (`id`, `tag`) VALUES ('info_komitee', 'buergerkandidat');
+INSERT INTO `system_text_tag` (`id`, `tag`) VALUES ('info_kontakt', 'buergerkandidat');
