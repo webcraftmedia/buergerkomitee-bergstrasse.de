@@ -39,6 +39,7 @@
                     <div class="collapse navbar-collapse" id="menu-collapse">
                         <ul class="nav navbar-nav">
                             <li><a href="#!kandidat" id="menu_kandidat"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;<b>Kandidat</b></a></li>
+                            <li><a href="#!komitee" id="menu_komitee"><span class="fa fa-users"></span>&nbsp;&nbsp;<b>Komitee</b></a></li>
                             <li><a href="#!faq" id="menu_faq"><span class="glyphicon glyphicon-question-sign"></span>&nbsp;&nbsp;<b>FAQ</b></a></li>
                             <li><a href="#!unterstuetzen" id="menu_unterstuetzen"><span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;&nbsp;<b>Unterst&uuml;tzen</b></a></li>
                             <li><a href="#!kontakt" id="menu_kontakt"><span class="glyphicon glyphicon-pencil"></span>&nbsp;&nbsp;<b>Kontakt</b></a></li>

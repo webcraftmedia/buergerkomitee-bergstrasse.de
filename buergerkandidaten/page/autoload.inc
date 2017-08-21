@@ -7,3 +7,4 @@ SYSTEM\autoload::registerFolder(dirname(__FILE__).'/default_faq');
 SYSTEM\autoload::registerFolder(dirname(__FILE__).'/default_kandidat');
 SYSTEM\autoload::registerFolder(dirname(__FILE__).'/default_kontakt');
 SYSTEM\autoload::registerFolder(dirname(__FILE__).'/default_unterstuetzen');
+SYSTEM\autoload::registerFolder(dirname(__FILE__).'/default_komitee');
