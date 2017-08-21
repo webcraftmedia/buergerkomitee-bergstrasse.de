@@ -11,6 +11,7 @@ class default_page implements \SYSTEM\PAGE\DefaultPage {
     
     public static function css(){
         return  \SYSTEM\HTML\html::link(\LIB\lib_bootstrap::css()->WEBPATH(false)).
+                \SYSTEM\HTML\html::link(\LIB\lib_font_awesome::css()->WEBPATH(false)).
                 \SYSTEM\HTML\html::link(\SYSTEM\CACHE\cache_css::minify(array(
                     new PPAGE('default_page/css/default_page.css')
                 )));

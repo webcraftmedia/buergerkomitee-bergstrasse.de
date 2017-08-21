@@ -27,11 +27,11 @@
             <div class="panel panel-default" onclick="system.load('komitee')" style="cursor: pointer; height: 320px; margin-bottom: 15px;">
                 <div class="panel-heading">
                     <h3 class="panel-title">
-                        <span class="glyphicon glyphicon-users"></span>&nbsp;&nbsp;Komitee
+                        <i class="fa fa-users" aria-hidden="true"></i>&nbsp;&nbsp;Komitee
                     </h3>
                 </div>
                 <div class="panel-body">
-                    <span class="glyphicon glyphicon-users" style="font-size: 6em; float: left; margin-right: 15px;"></span>
+                    <i class="fa fa-users" aria-hidden="true" style="font-size: 6em; float: left; margin-right: 15px;"></i>
                     <span>${info_komitee}</span>
                 </div>
             </div>

@@ -7,3 +7,6 @@
 [submodule "buergerkandidaten/sai/saimod_webcraft_contact"]
 	path = buergerkandidaten/sai/saimod_webcraft_contact
 	url = ../saimod_webcraft_contact.git
+[submodule "lib/font_awesome"]
+	path = lib/font_awesome
+	url = ../lib_font_awesome.git
