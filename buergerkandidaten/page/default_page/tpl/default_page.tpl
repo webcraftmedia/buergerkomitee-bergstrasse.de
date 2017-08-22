@@ -25,7 +25,7 @@
                     <a href="#!start" ><h1 style="width: 100%; height: 100%;margin: 0;" title="Bürgerkandidat Wahlkreis Bergstraße"></h1></a>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" style="padding-left: 5px; padding-right: 5px;">
                 <nav class="navbar navbar-default">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#menu-collapse" aria-expanded="false" style="margin-left: 5px;">
@@ -70,18 +70,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-9 padding0">
-                    <div class="panel panel-default panel-default" id="content" style="margin-right: 5px; margin-left: 5px;"></div>
-                </div>
+                <div class="col-md-9 padding0" id="content"></div>
             </div>
-            <div class="row">
+            <div class="row" style="padding-left: 5px; padding-right: 5px;">
                 <div class="col-md-12 padding0">
                     <hr class="margin0">
                 </div>
             </div>
-            <div class="row">
-                <div id="footer-left" class="col-md-5 col-sm-5 col-xs-5 padding0">&nbsp;&nbsp;<a href="#!impressum" title="Impressum">Impressum</a> | <a href="#!kontakt" title="Kontakt">Kontakt</a></div>
-                <div id="footer-right" class="col-md-5 col-sm-5 col-xs-5 pull-right padding0">© 2017 <a href="https://www.webcraft-media.de" title="Webcraft Media Webdesign" target="blank">Webcraft Media</a>&nbsp;&nbsp;</div>
+            <div class="row" style="padding-left: 5px; padding-right: 5px;">
+                <div id="footer-left" class="col-md-5 col-sm-5 col-xs-5 padding0"><a href="#!impressum" title="Impressum">Impressum</a> | <a href="#!kontakt" title="Kontakt">Kontakt</a></div>
+                <div id="footer-right" class="col-md-5 col-sm-5 col-xs-5 pull-right padding0">© 2017 <a href="https://www.webcraft-media.de" title="Webcraft Media Webdesign" target="blank">Webcraft Media</a></div>
             </div>
         </div>
         ${css}
