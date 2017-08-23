@@ -10,8 +10,8 @@
         </div>
     </div>
 </div>
-<div class="row" style="padding-right: 5px; padding-left: 5px;">
-    <div class="col-md-6">
+<div class="row-fluid">
+    <div class="col-md-6" style="padding-right: 5px; padding-left: 5px;">
         <div class="panel panel-default" onclick="system.load('kandidat')" style="cursor: pointer; height: 320px; margin-bottom: 15px;">
             <div class="panel-heading">
                 <h3 class="panel-title">
@@ -26,7 +26,7 @@
             </div>
         </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6" style="padding-right: 5px; padding-left: 5px;">
         <div class="panel panel-default" onclick="system.load('komitee')" style="cursor: pointer; height: 320px; margin-bottom: 15px;">
             <div class="panel-heading">
                 <h3 class="panel-title">
@@ -40,8 +40,8 @@
         </div>
     </div>
 </div>
-<div class="row" style="padding-right: 5px; padding-left: 5px;">
-    <div class="col-md-6">
+<div class="row-fluid">
+    <div class="col-md-6" style="padding-right: 5px; padding-left: 5px;">
         <div class="panel panel-default" onclick="system.load('faq')" style="cursor: pointer; margin-bottom: 15px;">
             <div class="panel-heading">
                 <h3 class="panel-title">
@@ -54,7 +54,7 @@
             </div>
         </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6" style="padding-right: 5px; padding-left: 5px;">
         <div class="panel panel-default" onclick="system.load('kontakt')" style="cursor: pointer; margin-bottom: 15px;">
             <div class="panel-heading">
                 <h3 class="panel-title">

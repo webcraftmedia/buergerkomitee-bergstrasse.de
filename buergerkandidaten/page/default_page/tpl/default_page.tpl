@@ -72,7 +72,7 @@
                 </div>
                 <div class="col-md-9 padding0" id="content"></div>
             </div>
-            <div class="row" style="padding-left: 5px; padding-right: 5px;">
+            <div class="row-fluid">
                 <div class="col-md-12 padding0">
                     <hr class="margin0">
                 </div>
