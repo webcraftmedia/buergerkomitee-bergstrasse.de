@@ -12,22 +12,22 @@
 </div>
 <div class="row-fluid">
     <div class="col-md-6" style="padding-right: 5px; padding-left: 5px;">
-        <div class="panel panel-default" onclick="system.load('kandidat')" style="cursor: pointer; height: 320px; margin-bottom: 15px;">
+        <div class="panel panel-default" onclick="system.load('kandidat')" style="cursor: pointer; height: 360px; margin-bottom: 15px;">
             <div class="panel-heading">
                 <h3 class="panel-title">
                     <span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;Kandidat
                 </h3>
             </div>
             <div class="panel-body">
-                <div style="float: left; width: 180px; margin-right: 5px;">
-                    <img alt="Sebastian Bucher" src="./files/img/Bucher_Sebastian_skal.jpg" style="width: 100%; border-radius: 5px; border: solid 1px grey;"/>
+                <div style="float: left; width: 200px; margin-right: 5px;">
+                    <img alt="Sebastian Bucher" src="./files/img/3440.jpg" style="width: 100%; border-radius: 5px; border: solid 1px grey;"/>
                 </div>
                 <div>${info_kandidat}</div>
             </div>
         </div>
     </div>
     <div class="col-md-6" style="padding-right: 5px; padding-left: 5px;">
-        <div class="panel panel-default" onclick="system.load('komitee')" style="cursor: pointer; height: 320px; margin-bottom: 15px;">
+        <div class="panel panel-default" onclick="system.load('komitee')" style="cursor: pointer; height: 360px; margin-bottom: 15px;">
             <div class="panel-heading">
                 <h3 class="panel-title">
                     <i class="fa fa-users" aria-hidden="true"></i>&nbsp;&nbsp;Komitee
