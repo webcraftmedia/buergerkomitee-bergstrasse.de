@@ -12,7 +12,7 @@
 </div>
 <div class="row-fluid">
     <div class="col-md-6" style="padding-right: 5px; padding-left: 5px;">
-        <div class="panel panel-default" onclick="system.load('kandidat')" style="cursor: pointer; height: 360px; margin-bottom: 15px;">
+        <div class="panel panel-default" onclick="system.load('kandidat')" style="cursor: pointer; height: 365px; margin-bottom: 15px;">
             <div class="panel-heading">
                 <h3 class="panel-title">
                     <span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;Kandidat
@@ -27,7 +27,7 @@
         </div>
     </div>
     <div class="col-md-6" style="padding-right: 5px; padding-left: 5px;">
-        <div class="panel panel-default" onclick="system.load('komitee')" style="cursor: pointer; height: 360px; margin-bottom: 15px;">
+        <div class="panel panel-default" onclick="system.load('komitee')" style="cursor: pointer; height: 365px; margin-bottom: 15px;">
             <div class="panel-heading">
                 <h3 class="panel-title">
                     <i class="fa fa-users" aria-hidden="true"></i>&nbsp;&nbsp;Komitee
