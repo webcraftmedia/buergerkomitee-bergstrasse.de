@@ -12,13 +12,13 @@
         <style>
             #head-div{
                 height: 150px;
-                background: url('./files/img/buerger_logo_kopf.png') no-repeat;
+                background: url('./files/img/buerger_logo_kopf_transparent.png') no-repeat;
                 background-size: contain;
                 margin-bottom: 10px;
             }
         </style>
     </head>
-    <body>
+    <body style="background: url('./files/img/DSC_6678-Bearbeitet.jpg') no-repeat; background-size:100vw 120vh; background-attachment:fixed;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 padding0" id="head-div">
@@ -74,12 +74,12 @@
             </div>
             <div class="row-fluid">
                 <div class="col-md-12 padding0">
-                    <hr class="margin0">
+                    <hr class="margin0" style="display: none;">
                 </div>
             </div>
             <div class="row" style="padding-left: 5px; padding-right: 5px;">
-                <div id="footer-left" class="col-md-5 col-sm-5 col-xs-5 padding0"><a href="#!impressum" title="Impressum">Impressum</a> | <a href="#!kontakt" title="Kontakt">Kontakt</a></div>
-                <div id="footer-right" class="col-md-5 col-sm-5 col-xs-5 pull-right padding0">© 2017 <a href="https://www.webcraft-media.de" title="Webcraft Media Webdesign" target="blank">Webcraft Media</a></div>
+                <div id="footer-left" class="col-md-6 col-sm-6 col-xs-6 padding0" style="border-radius: 4px 0 0 0; background-color: white;">&nbsp;<a href="#!impressum" title="Impressum">Impressum</a> | <a href="#!kontakt" title="Kontakt">Kontakt</a></div>
+                <div id="footer-right" class="col-md-6 col-sm-6 col-xs-6 pull-right padding0" style="border-radius: 0 4px 0 0; background-color: white;">© 2017 <a href="https://www.webcraft-media.de" title="Webcraft Media Webdesign" target="blank">Webcraft Media</a>&nbsp;</div>
             </div>
         </div>
         ${css}

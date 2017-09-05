@@ -20,7 +20,7 @@
             </div>
             <div class="panel-body">
                 <div style="float: left; width: 200px; margin-right: 5px;">
-                    <img alt="Sebastian Bucher" src="./files/img/3440.jpg" style="width: 100%; border-radius: 5px; border: solid 1px grey;"/>
+                    <img alt="Sebastian Bucher" src="./files/img/3391.jpg" style="width: 100%; border-radius: 5px; border: solid 1px grey;"/>
                 </div>
                 <div>${info_kandidat}</div>
             </div>
@@ -42,7 +42,7 @@
 </div>
 <div class="row-fluid">
     <div class="col-md-6" style="padding-right: 5px; padding-left: 5px;">
-        <div class="panel panel-default" onclick="system.load('faq')" style="cursor: pointer; margin-bottom: 15px;">
+        <div class="panel panel-default" onclick="system.load('faq')" style="cursor: pointer; margin-bottom: 15px; height: 180px;">
             <div class="panel-heading">
                 <h3 class="panel-title">
                     <span class="glyphicon glyphicon-question-sign"></span>&nbsp;&nbsp;FAQ
@@ -55,7 +55,7 @@
         </div>
     </div>
     <div class="col-md-6" style="padding-right: 5px; padding-left: 5px;">
-        <div class="panel panel-default" onclick="system.load('kontakt')" style="cursor: pointer; margin-bottom: 15px;">
+        <div class="panel panel-default" onclick="system.load('kontakt')" style="cursor: pointer; margin-bottom: 15px; height: 180px;">
             <div class="panel-heading">
                 <h3 class="panel-title">
                     <span class="glyphicon glyphicon-pencil"></span>&nbsp;&nbsp;Kontakt
