@@ -16,13 +16,38 @@
                 background-size: contain;
                 margin-bottom: 10px;
             }
+            #keywords_link{
+                color: #FF4136;
+                font-weight: bold;
+                font-style: italic;
+                text-shadow: 0px 0px 7px #FF851B;
+            }
+            #keywords_link:hover{
+                text-decoration: none !important;
+            }
+            #keywords_link:active {
+                text-decoration: none !important;
+            }
+            #keywords_link:visited {
+                text-decoration: none !important;
+            }
+            #keywords_link:link {
+                text-decoration: none !important;
+            }
         </style>
     </head>
     <body style="background: url('./files/img/DSC_6678-Bearbeitet.jpg') no-repeat; background-size:100vw 120vh; background-attachment:fixed;">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 padding0" id="head-div">
-                    <a href="#!start" ><h1 style="width: 100%; height: 100%;margin: 0;" title="Bürgerkandidat Wahlkreis Bergstraße"></h1></a>
+                <div class="col-md-8 padding0" id="head-div">
+                    <a href="#!start"><h1 style="width: 100%; height: 100%; margin: 0;" title="Bürgerkandidat Wahlkreis Bergstraße"></h1></a>
+                </div>
+                <div class="col-md-4 padding0">
+                    <a href="#!start" id="keywords_link">
+                        <h1 style="width: 100%; height: 100%; margin: 0; text-align: center; padding-right: 15px; padding-top: 15px; padding-bottom: 15px;" title="Direkte Demokratie, Tranzparent und Gemeinwohl">
+                            Direkte Demokratie Transparenz Gemeinwohl
+                        </h1>
+                    </a>
                 </div>
             </div>
             <div class="row" style="padding-left: 5px; padding-right: 5px;">
