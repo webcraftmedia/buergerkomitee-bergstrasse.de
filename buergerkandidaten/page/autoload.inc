@@ -8,3 +8,7 @@ SYSTEM\autoload::registerFolder(dirname(__FILE__).'/default_kandidat');
 SYSTEM\autoload::registerFolder(dirname(__FILE__).'/default_kontakt');
 SYSTEM\autoload::registerFolder(dirname(__FILE__).'/default_unterstuetzen');
 SYSTEM\autoload::registerFolder(dirname(__FILE__).'/default_komitee');
+SYSTEM\autoload::registerFolder(dirname(__FILE__).'/default_login');
+SYSTEM\autoload::registerFolder(dirname(__FILE__).'/default_resetpassword');
+SYSTEM\autoload::registerFolder(dirname(__FILE__).'/account_account');
+SYSTEM\autoload::registerFolder(dirname(__FILE__).'/account_changepassword');

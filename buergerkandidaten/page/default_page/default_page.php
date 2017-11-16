@@ -23,7 +23,10 @@ class default_page implements \SYSTEM\PAGE\DefaultPage {
         if(!$_escaped_fragment_){
             $vars['js'] = self::js();}
         $vars['css'] = self::css();
+        $vars['menu_account'] = \SYSTEM\SECURITY\security::isLoggedIn() ?
+                                \SYSTEM\PAGE\replace::replaceFile((new PPAGE('default_page/tpl/menu_account.tpl'))->SERVERPATH(), array('username' => \SYSTEM\SECURITY\security::getUser()->username)) :
+                                '';
         $vars = array_merge($vars,  \SYSTEM\PAGE\text::tag('buergerkandidat'));
-        return SYSTEM\PAGE\replace::replaceFile((new PPAGE('default_page/tpl/default_page.tpl'))->SERVERPATH(), $vars);
+        return \SYSTEM\PAGE\replace::replaceFile((new PPAGE('default_page/tpl/default_page.tpl'))->SERVERPATH(), $vars);
     }
 }

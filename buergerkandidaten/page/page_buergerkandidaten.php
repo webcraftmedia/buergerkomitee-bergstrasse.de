@@ -30,4 +30,17 @@ class page_buergerkandidaten extends \SYSTEM\API\api_default {
     
     public static function page_impressum(){
         return (new default_impressum())->html();}
+        
+    public static function page_login(){
+        return (new default_login())->html();}
+        
+    public static function page_resetpassword(){
+        return (new default_resetpassword())->html();}
+        
+    public static function page_account(){
+        return (new account_account())->html();
+    }
+        
+    public static function page_changepassword(){
+        return (new account_changepassword())->html();}
 }
