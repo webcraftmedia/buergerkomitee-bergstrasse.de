@@ -1,12 +1,6 @@
 [submodule "lib/system"]
 	path = lib/system
 	url = ../system.git
-[submodule "buergerkandidaten/sai/saimod_webcraft_updates"]
-	path = buergerkandidaten/sai/saimod_webcraft_updates
-	url = ../saimod_webcraft_updates.git
-[submodule "buergerkandidaten/sai/saimod_webcraft_contact"]
-	path = buergerkandidaten/sai/saimod_webcraft_contact
-	url = ../saimod_webcraft_contact.git
 [submodule "lib/font_awesome"]
 	path = lib/font_awesome
 	url = ../lib_font_awesome.git
