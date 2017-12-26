@@ -1,2 +1,0 @@
-function init_kandidat(){
-}
