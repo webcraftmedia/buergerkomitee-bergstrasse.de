@@ -10,3 +10,9 @@
 [submodule "lib/font_awesome"]
 	path = lib/font_awesome
 	url = ../lib_font_awesome.git
+[submodule "buergerkomitee/sai/saimod_webcraft_updates"]
+	path = buergerkomitee/sai/saimod_webcraft_updates
+	url = ../saimod_webcraft_updates.git
+[submodule "buergerkomitee/sai/saimod_webcraft_contact"]
+	path = buergerkomitee/sai/saimod_webcraft_contact
+	url = ../saimod_webcraft_contact.git
