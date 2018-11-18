@@ -1,10 +1,8 @@
-<div class="panel panel-default panel-default" style="margin-right: 5px; margin-left: 5px;">
-    <div class="panel-heading">
-        <h4 class="panel-title">
-            <i class="glyphicon glyphicon-user"></i>&nbsp;&nbsp;Login
-        </h4>
+<div class="card" style="margin-right: 5px; margin-left: 5px;">
+    <div class="card-header">
+        <i class="fa fa-user"></i>&nbsp;&nbsp;Login
     </div>            
-    <div class="panel-body">
+    <div class="card-body">
         <form class="textbox" id="login_form">
             <div class="control-group">
                 <div class="controls">

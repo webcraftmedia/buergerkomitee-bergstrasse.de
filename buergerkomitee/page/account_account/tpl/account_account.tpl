@@ -1,10 +1,8 @@
-<div class="panel panel-default panel-default" style="margin-right: 5px; margin-left: 5px;">
-    <div class="panel-heading">
-        <h4 class="panel-title">
-            <i class="glyphicon glyphicon-user"></i>&nbsp;&nbsp;Account
-        </h4>
+<div class="card" style="margin-right: 5px; margin-left: 5px;">
+    <div class="card-header">
+        <i class="fa fa-user"></i>&nbsp;&nbsp;Account
     </div>            
-    <div class="panel-body">
+    <div class="card-body">
         <span><b>Username: </b>${username}</span>
         <br>
         <span><b>EMail: </b>${email}</span>

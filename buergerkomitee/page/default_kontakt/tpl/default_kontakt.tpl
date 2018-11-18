@@ -1,10 +1,8 @@
-<div class="panel panel-default panel-default" style="margin-right: 5px; margin-left: 5px;">
-    <div class="panel-heading">
-        <h2 class="panel-title">
-            <i class="glyphicon glyphicon-pencil"></i>&nbsp;&nbsp;Kontakt
-        </h2>
+<div class="card" style="margin-right: 5px; margin-left: 5px;">
+    <div class="card-header">
+        <i class="glyphicon glyphicon-pencil"></i>&nbsp;&nbsp;Kontakt
     </div>            
-    <div class="panel-body">
+    <div class="card-body">
         <form class="textbox trojan" id="contact_form">
             <div class="control-group">
                 <div class="controls col-lg-12 col-md-12 col-sm-12 col-xs-12 padding0" style="margin-bottom: 15px;">

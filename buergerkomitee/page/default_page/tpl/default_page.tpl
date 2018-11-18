@@ -34,6 +34,9 @@
             #keywords_link:link {
                 text-decoration: none !important;
             }
+            .nav-item:active {
+                background-color: none !important;
+            }
         </style>
     </head>
     <body style="background: url('./files/img/DSC_6678-Bearbeitet.jpg') no-repeat; background-size:100vw 120vh; background-attachment:fixed;">
@@ -51,47 +54,42 @@
                 </div>
             </div>
             <div class="row" style="padding-left: 5px; padding-right: 5px;">
-                <nav class="navbar navbar-default">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#menu-collapse" aria-expanded="false" style="margin-left: 5px;">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
+                <nav class="navbar navbar-expand-lg" style="background-color: #fff; width: 100%; margin-bottom: 10px; border-radius: 5px; padding: 0;">
+                        <a class="navbar-brand" href="#!" style="height: 100%; padding-top: 11px;">
+                            <span class="fa fa-home"></span>&nbsp;&nbsp;<b>Startseite</b>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
                         </button>
-                        <a class="navbar-brand" href="#" id="menu_start"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;<b>Startseite</b></a>
-                    </div>
-                    <div class="collapse navbar-collapse" id="menu-collapse">
-                        <ul class="nav navbar-nav">
-                            <li><a href="#!kandidat" id="menu_kandidat"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;<b>Kandidat</b></a></li>
-                            <li><a href="#!komitee" id="menu_komitee"><span class="fa fa-users"></span>&nbsp;&nbsp;<b>Komitee</b></a></li>
-                            <li><a href="#!faq" id="menu_faq"><span class="glyphicon glyphicon-question-sign"></span>&nbsp;&nbsp;<b>FAQ</b></a></li>
-                            <li><a href="#!unterstuetzen" id="menu_unterstuetzen"><span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;&nbsp;<b>Unterst&uuml;tzen</b></a></li>
-                            <li><a href="#!kontakt" id="menu_kontakt"><span class="glyphicon glyphicon-pencil"></span>&nbsp;&nbsp;<b>Kontakt</b></a></li>
-                        </ul>
-                        ${menu_account}
-                    </div>
+                        <div class="collapse navbar-collapse" id="navbar-collapse">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active"><a class="nav-link" href="#!kandidat" id="menu_kandidat"><span class="fa fa-user"></span>&nbsp;&nbsp;<b>Kandidat</b></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#!komitee" id="menu_komitee"><span class="fa fa-users"></span>&nbsp;&nbsp;<b>Komitee</b></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#!faq" id="menu_faq"><span class="fa fa-question-sign"></span>&nbsp;&nbsp;<b>FAQ</b></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#!unterstuetzen" id="menu_unterstuetzen"><span class="fa fa-thumbs-up"></span>&nbsp;&nbsp;<b>Unterst&uuml;tzen</b></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#!kontakt" id="menu_kontakt"><span class="fa fa-pencil"></span>&nbsp;&nbsp;<b>Kontakt</b></a></li>
+                            </ul>
+                            ${menu_account}
+                        </div>
                 </nav>
             </div>
             <div class="row">
                 <div class="col-md-3 padding0">
-                    <div class="panel panel-default panel-default" style="margin-right: 5px; margin-left: 5px;">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <i class="glyphicon glyphicon-fire"></i>&nbsp;&nbsp;Aktuelles
-                            </h4>
-                        </div>            
-                        <div class="panel-body">
-                            ${content_aktuelles}
+                    <div class="card" style="margin-right: 5px; margin-left: 5px;">
+                        <div class="card-header">
+                            <i class="fa fa-fire"></i>&nbsp;&nbsp;Aktuelles
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text">
+                                ${content_aktuelles}
+                            </div>
                         </div>            
                     </div>
-                    <div class="panel panel-default panel-default" style="margin-right: 5px; margin-left: 5px;">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <i class="glyphicon glyphicon-heart"></i>&nbsp;&nbsp;Organisationen im Komitee
-                            </h4>
-                        </div>            
-                        <div class="panel-body">
+                    <div class="card" style="margin-right: 5px; margin-left: 5px; margin-top: 5px;">
+                        <div class="card-header">
+                            <i class="fa fa-heart"></i>&nbsp;&nbsp;Organisationen im Komitee
+                        </div>
+                        <div class="card-body">
                             ${content_organisationen}
                         </div>
                     </div>
@@ -103,7 +101,7 @@
                     <hr class="margin0" style="display: none;">
                 </div>
             </div>
-            <div class="row" style="padding-left: 5px; padding-right: 5px;">
+            <div class="row" style="padding-left: 5px; padding-right: 5px;" id="footer">
                 <div id="footer-left" class="col-md-6 col-sm-6 col-xs-6 padding0" style="border-radius: 4px 0 0 0; background-color: white;">&nbsp;<a href="#!impressum" title="Impressum">Impressum</a> | <a href="#!kontakt" title="Kontakt">Kontakt</a></div>
                 <div id="footer-right" class="col-md-6 col-sm-6 col-xs-6 pull-right padding0" style="border-radius: 0 4px 0 0; background-color: white;">© 2017 <a href="https://www.webcraft-media.de" title="Webcraft Media Webdesign" target="blank">Webcraft Media</a>&nbsp;</div>
             </div>

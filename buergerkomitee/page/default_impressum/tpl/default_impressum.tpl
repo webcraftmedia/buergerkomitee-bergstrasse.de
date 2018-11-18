@@ -1,10 +1,8 @@
-<div class="panel panel-default panel-default" style="margin-right: 5px; margin-left: 5px;">
-    <div class="panel-heading">
-        <h2 class="panel-title">
-            <i class="glyphicon glyphicon-education"></i>&nbsp;&nbsp;Impressum
-        </h2>
+<div class="card" style="margin-right: 5px; margin-left: 5px;">
+    <div class="card-header">
+        <i class="fa fa-education"></i>&nbsp;&nbsp;Impressum
     </div>            
-    <div class="panel-body">
+    <div class="card-body">
         ${content_impressum}
     </div>
 </div>

@@ -1,12 +1,10 @@
 <div class="row">
     <div class="col-md-12">
-        <div class="panel panel-default panel-danger margin-bottom0" style="margin-right: 5px; margin-left: 5px;">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <i class="glyphicon glyphicon-user"></i>&nbsp;&nbsp;Passwort ändern
-                </h4>
+        <div class="card panel-danger margin-bottom0" style="margin-right: 5px; margin-left: 5px;">
+            <div class="card-header">
+                <i class="fa fa-user"></i>&nbsp;&nbsp;Passwort ändern
             </div>            
-            <div class="panel-body">
+            <div class="card-body">
                 <input  type="password"
                         size="35"
                         style="margin-bottom: 15px; width: 100%;"

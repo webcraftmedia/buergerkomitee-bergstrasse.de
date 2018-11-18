@@ -1,20 +1,16 @@
-<div class="panel panel-default panel-default" style="margin-right: 5px; margin-left: 5px;">
-    <div class="panel-heading">
-        <h2 class="panel-title">
-            <i class="fa fa-users"></i>&nbsp;&nbsp;Komitee
-        </h2>
+<div class="card" style="margin-right: 5px; margin-left: 5px;">
+    <div class="card-header">
+        <i class="fa fa-users"></i>&nbsp;&nbsp;Komitee
     </div>            
-    <div class="panel-body">
+    <div class="card-body">
         ${content_komitee}
     </div>
 </div>
-<div class="panel panel-default panel-default" style="margin-right: 5px; margin-left: 5px;">
-    <div class="panel-heading">
-        <h2 class="panel-title">
-            <i class="fa fa-file-text"></i>&nbsp;&nbsp;Protokolle
-        </h2>
+<div class="card" style="margin-right: 5px; margin-left: 5px; margin-top: 5px;">
+    <div class="card-header">
+        <i class="fa fa-file-text"></i>&nbsp;&nbsp;Protokolle
     </div>            
-    <div class="panel-body">
+    <div class="card-body">
         ${content_protocol}
         <br><br>
         <table class="table table-striped">
