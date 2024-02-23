@@ -8,7 +8,7 @@
 </div>
 <div class="card" style="margin-right: 5px; margin-left: 5px; margin-top: 5px;">
     <div class="card-header">
-        <i class="fa fa-file-text"></i>&nbsp;&nbsp;Protokolle
+        <i class="fa fa-file-alt"></i>&nbsp;&nbsp;Protokolle
     </div>            
     <div class="card-body">
         ${content_protocol}

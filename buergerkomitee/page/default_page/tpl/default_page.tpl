@@ -65,9 +65,9 @@
                             <ul class="navbar-nav">
                                 <li class="nav-item active"><a class="nav-link" href="#!kandidat" id="menu_kandidat"><span class="fa fa-user"></span>&nbsp;&nbsp;<b>Kandidat</b></a></li>
                                 <li class="nav-item"><a class="nav-link" href="#!komitee" id="menu_komitee"><span class="fa fa-users"></span>&nbsp;&nbsp;<b>Komitee</b></a></li>
-                                <li class="nav-item"><a class="nav-link" href="#!faq" id="menu_faq"><span class="fa fa-question-sign"></span>&nbsp;&nbsp;<b>FAQ</b></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#!faq" id="menu_faq"><span class="fa fa-info-circle"></span>&nbsp;&nbsp;<b>FAQ</b></a></li>
                                 <li class="nav-item"><a class="nav-link" href="#!unterstuetzen" id="menu_unterstuetzen"><span class="fa fa-thumbs-up"></span>&nbsp;&nbsp;<b>Unterst&uuml;tzen</b></a></li>
-                                <li class="nav-item"><a class="nav-link" href="#!kontakt" id="menu_kontakt"><span class="fa fa-pencil"></span>&nbsp;&nbsp;<b>Kontakt</b></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#!kontakt" id="menu_kontakt"><span class="fa fa-pen"></span>&nbsp;&nbsp;<b>Kontakt</b></a></li>
                             </ul>
                             ${menu_account}
                         </div>

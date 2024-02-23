@@ -1,6 +1,6 @@
 <div class="card" style="margin-right: 5px; margin-left: 5px;">
     <div class="card-header">
-        <i class="glyphicon glyphicon-pencil"></i>&nbsp;&nbsp;Kontakt
+        <i class="fa fa-pen"></i>&nbsp;&nbsp;Kontakt
     </div>            
     <div class="card-body">
         <form class="textbox trojan" id="contact_form">
