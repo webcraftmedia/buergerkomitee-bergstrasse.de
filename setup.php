@@ -1,8 +1,6 @@
 <?php
-require_once 'lib/autoload.inc';                                                //SYSTEM Classes
-require_once 'buergerkomitee/autoload.inc';                                         //Project Classes
-require_once '/home/web/web/config/get_config.php';
+require_once 'index.inc';
 
-\SYSTEM\system::start(\WEBCRAFT\get_config(dirname(__FILE__)));
+\SYSTEM\system::start(\WEBCRAFT\config(dirname(__FILE__)));
 
 echo \SYSTEM\SQL\setup::install();

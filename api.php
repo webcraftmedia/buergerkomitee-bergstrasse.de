@@ -1,9 +1,7 @@
 <?php
-require_once 'lib/autoload.inc';                                                //SYSTEM Classes
-require_once 'buergerkomitee/autoload.inc';                                         //Project Classes
-require_once '/home/web/web/config/get_config.php';
+require_once 'index.inc';
 
-\SYSTEM\system::start(\WEBCRAFT\get_config(dirname(__FILE__)));
+\SYSTEM\system::start(\WEBCRAFT\config(dirname(__FILE__)));
 
 echo \SYSTEM\API\api::run('\SYSTEM\API\verify','api_buergerkomitee',array_merge($_POST,$_GET));
 new \SYSTEM\LOG\COUNTER("API was called sucessfully.");
