@@ -42,10 +42,10 @@
     <div class="col-md-6" style="padding-right: 5px; padding-left: 5px;">
         <div class="card" onclick="system.load('faq')" style="cursor: pointer; margin-bottom: 15px; height: 180px; margin-right: 5px; margin-left: 5px;">
             <div class="card-header">
-                <span class="glyphicon glyphicon-question-sign"></span>&nbsp;&nbsp;FAQ
+                <span class="fa fa-question-circle"></span>&nbsp;&nbsp;FAQ
             </div>
             <div class="card-body">
-                <span class="fa fa-question-sign" style="font-size: 6em; float: left; margin-right: 15px;"></span>
+                <span class="fa fa-question-circle" style="font-size: 6em; float: left; margin-right: 15px;"></span>
                 <span>${info_faq}</span>
             </div>
         </div>
@@ -53,10 +53,10 @@
     <div class="col-md-6" style="padding-right: 5px; padding-left: 5px;">
         <div class="card" onclick="system.load('kontakt')" style="cursor: pointer; margin-bottom: 15px; height: 180px; margin-right: 5px; margin-left: 5px;">
             <div class="card-header">
-                <span class="glyphicon glyphicon-pencil"></span>&nbsp;&nbsp;Kontakt
+                <span class="fa fa-pen"></span>&nbsp;&nbsp;Kontakt
             </div>
             <div class="card-body">
-                <span class="fa fa-pencil" style="font-size: 6em; float: left; margin-right: 15px;"></span>
+                <span class="fa fa-pen" style="font-size: 6em; float: left; margin-right: 15px;"></span>
                 <span>${info_kontakt}</span>
             </div>
         </div>
